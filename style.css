@@ -1,0 +1,92 @@
+* /*settings for the whole page specified with * */
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3F3F3F;
+}
+
+#nav-bar /* I think # is for a specific id, so special elements can have their own style*/
+{
+    position: sticky; 
+    top: 0; 
+    z-index: 10;
+}
+
+#nav-bar a:hover 
+{
+    color: whitesmoke !important; 
+}
+
+.navbar-brand img /* I think . is for a specific class, so all the elements of this class can have the same style */
+{
+    width: 130px;
+    alt:"logo";
+}
+
+
+.navbar-toggler
+{
+    border: none!important;
+}
+
+.nav-link
+{
+    /*changes color and font of navbar links (words)*/
+    
+    color: #bfbfbf!important;
+    font-weight: 600; 
+    margin: 10px;
+    font-size: 19px;
+
+}
+
+
+#about-me{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.profile img{
+    width: 250px;
+    height: 250px;
+    top: -30px;
+    left: calc(100% - 70px);
+    position: absolute;
+    border: 10px solid #fff;
+}
+
+.profile {
+    margin-top:40px;
+    margin-bottom:50px;
+    padding-top: 35px;
+
+    background-color: #efefef;
+}
+.first-title{
+    font-family: "Ubuntu" !important; /* The !important flag seems to be able to override default settings for given tags*/
+    font-size: 35px; 
+    color: #FE6E2F;
+    padding-left: 35px;
+}
+blockquote{
+    padding-right: 95px;
+    padding-left: 25px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    background-color: #efefef;
+    
+}
+
+.fa-github{
+    color: #FE6E2F;
+}
+
+.row{
+    margin-bottom: 50px;
+}
+
+
