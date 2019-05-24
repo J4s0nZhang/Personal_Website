@@ -14,11 +14,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
     <body>
-    <!--Navigation Bar-->
-    <section id = "nav-bar">  <!-- difference between id and class, since they are both used to style multiple elements: id is unique, classes can be reused by multiple elements-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#"><img src="/imgs/Logo.png" class="rounded-circle"></a>
-            <h2 class="first-title">Jason Jianxing Zhang</h2>
+    <!--Navigation Bar Section-->
+    <section id = "nav-bar">  
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--Bootstrap navbar object, with dark theme-->
+            <a class="navbar-brand" href="#"><img src="/imgs/Logo.png" class="rounded-circle"></a> <!--Logo image-->
+            <h2 class="first-title">Jason Jianxing Zhang</h2> <!--Banner title-->
+            
+            <!--Bootstrap code taken from site, with slight title revisions-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,13 +36,13 @@
             </div>
           </nav>
     </section>
-
+    
+    <!--About me section (brief intro) --> 
     <section id = "about-me">
-        <div class = "container">
-            
-            <div class = "row">
-                <div class ="col-md-12 profile text-center">
-                    <div class="img-box">
+        <div class = "container"> <!--container class deals with default padding and margins--> 
+            <div class = "row">   <!--bootstrap class to hold multiple column-->
+                <div class ="col-md-12 profile text-center"> <!--column class used in tandem with row class for better formatting--> 
+                    <div class="img-box"> <!--profile image--> 
                         <img src="imgs/profile.png" class = "rounded-circle" alt>
                     </div>
                     <div>
