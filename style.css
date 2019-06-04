@@ -80,13 +80,24 @@ blockquote{
     background-color: #efefef;
     
 }
+/*---------------------------- work experience ----------------------------------------------*/
+.underline {
+    border-bottom: 2px solid #FE6E2F; /* important: borders need a style attribute, otherwise it will not show up*/
+    width: 100%;
+    font-size: 35px;
+    
+}
 
 .fa-github{
     color: #FE6E2F;
 }
 
 .row{
+    margin-top: 40px; 
     margin-bottom: 50px;
 }
 
+.work-exp-img{
+    top: 40px;
+}
 
