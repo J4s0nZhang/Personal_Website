@@ -71,7 +71,7 @@ body{
     color: #FE6E2F;
     padding-left: 35px;
 }
-blockquote{
+#about-me blockquote{
     padding-right: 95px;
     padding-left: 25px;
     padding-top: 0px;
@@ -90,7 +90,9 @@ blockquote{
 
 .fa-github{
     color: #FE6E2F;
+    
 }
+
 
 .row{
     margin-top: 40px; 
@@ -101,3 +103,40 @@ blockquote{
     top: 40px;
 }
 
+#experience ul{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#experience h2{
+    font-size: 30px;
+   
+}
+
+
+#experience h3{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #3F3F3F;
+    font-style: italic; 
+    display: inline-block !important;
+}
+
+.year-label{
+    float: right;
+    font-size: 24px;
+    color: #3F3F3F;
+}
+
+.divider{
+    color: #FE6E2F;
+}
+
+.more-info{
+    float: right;
+    margin-left: 30px;
+    font-size: 35px;
+    background-color: #FE6E2F !important;
+    border-color: #FE6E2F !important;
+    
+}
