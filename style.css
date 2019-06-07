@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+section{
+    margin-top: 30px;
+}
 body{
     background-color: #3F3F3F;
 }
@@ -45,7 +48,6 @@ body{
 
 
 #about-me{
-    margin-top: 50px;
     padding: 20px;
 }
 
@@ -93,12 +95,8 @@ body{
     
 }
 
-#experience .row{
-    margin-top: 10px;
-}
-
 .row{
-    margin-top: 40px; 
+    margin-top: 10px; 
     margin-bottom: 50px;
 }
 
@@ -161,4 +159,22 @@ body{
     padding: 45px;
 }
 
+
+/*----------------------------------------------------Contact-me-------------------------------------------------*/
+#contact{
+    background-color: #efefef;
+    padding: 15px;
+}
+
+#contact h1{
+    margin-bottom: 29px;
+    border-bottom: 2px solid #FE6E2F;
+    width: 25%;
+}
+
+.info {
+    padding: 8px;
+    margin:10px;
+    background-color: white;
+}
 
