@@ -10,7 +10,7 @@ body{
 
 #nav-bar /* I think # is for a specific id, so special elements can have their own style*/
 {
-    position: sticky; 
+    position: static; 
     top: 0; 
     z-index: 10;
 }
@@ -68,7 +68,7 @@ body{
 .first-title{
     font-family: "Ubuntu" !important; /* The !important flag seems to be able to override default settings for given tags*/
     font-size: 35px; 
-    color: #FE6E2F;
+    color: white;
     padding-left: 35px;
 }
 #about-me blockquote{
@@ -80,7 +80,7 @@ body{
     background-color: #efefef;
     
 }
-/*---------------------------- work experience ----------------------------------------------*/
+/*------------------------------------------------- work experience -----------------------------------------------------------*/
 .underline {
     border-bottom: 2px solid #FE6E2F; /* important: borders need a style attribute, otherwise it will not show up*/
     width: 100%;
@@ -93,6 +93,9 @@ body{
     
 }
 
+#experience .row{
+    margin-top: 10px;
+}
 
 .row{
     margin-top: 40px; 
@@ -110,9 +113,9 @@ body{
 
 #experience h2{
     font-size: 30px;
+    margin-top: 30px;
    
 }
-
 
 #experience h3{
     margin-top: 10px;
@@ -140,3 +143,22 @@ body{
     border-color: #FE6E2F !important;
     
 }
+
+/*-------------------------------------------------------Projects--------------------------------------------------*/
+
+#projects h1{
+    margin-top: 100px;
+}
+
+/*-------------------------------------------------------Skills----------------------------------------------------*/
+
+#skills {
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(imgs/slider3.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+    padding: 45px;
+}
+
+
