@@ -96,7 +96,7 @@ body{
 }
 
 .row{
-    margin-top: 10px; 
+    margin-top: 20px; 
     margin-bottom: 50px;
 }
 
@@ -159,6 +159,24 @@ body{
     padding: 45px;
 }
 
+/*----------------------------------------------------References-------------------------------------------------*/
+
+.reference-img img{
+    width: 180px;
+    display: block;
+    margin: auto;
+    
+}
+
+#reference p{
+    padding: 90px 30px 30px 35px;
+    margin-top: -70px;
+    border: 2px solid #FE6E2F;
+}
+
+
+
+
 
 /*----------------------------------------------------Contact-me-------------------------------------------------*/
 #contact{
@@ -169,7 +187,7 @@ body{
 #contact h1{
     margin-bottom: 29px;
     border-bottom: 2px solid #FE6E2F;
-    width: 25%;
+    width: 20%;
 }
 
 .info {
@@ -177,4 +195,6 @@ body{
     margin:10px;
     background-color: white;
 }
+
+
 
