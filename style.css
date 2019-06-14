@@ -4,9 +4,6 @@
     padding: 0;
 }
 
-section{
-    margin-top: 30px;
-}
 body{
     background-color: #3F3F3F;
 }
@@ -196,5 +193,11 @@ body{
     background-color: white;
 }
 
+/*-----------------------------------------------------footer----------------------------------------------------*/
 
+#footer {
+    background: #3F3F3F;
+    padding: 30px;
+    color: white;
+}
 
