@@ -163,6 +163,10 @@ body{
 }
 
 /*----------------------------------------------------References-------------------------------------------------*/
+#reference {
+    margin-top: 25px;
+}
+
 
 .reference-img img{
     width: 180px;
@@ -177,12 +181,9 @@ body{
     border: 2px solid #FE6E2F;
 }
 
-
-
-
-
 /*----------------------------------------------------Contact-me-------------------------------------------------*/
 #contact{
+    margin-top: 20px;
     background-color: #efefef;
     padding: 15px;
 }
