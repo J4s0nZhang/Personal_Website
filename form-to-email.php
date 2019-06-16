@@ -44,5 +44,22 @@ try{
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
 catch(\Exception $e){
+    $responseArray = array('type' => 'danger', 'message' => $errorMessage);
+}
 
+//if requested by AJAX request, return JSON reponse
+
+if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && (strtolower($_SERVER['HTTP_X_REQUEST_WITH']) == 'xmlhttprequest')){
+
+    $encoded = json_encode($responseArray);
+
+    header('Content-Type: application/json');
+
+    echo $encoded;
+
+}
+
+//otherwise just echo response message
+else {
+    echo $responseArrary['message']; 
 }
