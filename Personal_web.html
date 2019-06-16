@@ -11,6 +11,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" ></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" ></script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+        <script src="contact.js"></script>
+
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
     <body>
@@ -232,32 +236,38 @@
     <section id="contact">
         <div class = "container">
             <h1>Contact Me</h1>
-            <div class = "row">
+                <div class = "row">
                
-                <div class='col-md-6'> <!--form used to send me messages (backend not setup)-->
-                    
-                    <form class="contact-form">
-                        <div class='form-group'>
-                            <input type="text" class="form-control" placeholder= "Name">
-                        </div>
-                        <div class='form-group'>
-                            <input type="text" class="form-control" placeholder= "Email">
-                        </div>
-                        <div class='form-group'>
-                            <textarea class="form-control" placeholder= "Message" rows="5"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
+                    <div class='col-md-6'> <!--form used to send me messages (backend not setup)-->
+                        <form class="contact-form" method="POST" action="form-to-email.php" role="form">
+                            <div class="messages"></div> <!--empty div to display error msgs-->
+
+                            <div class='form-group'>
+                                <input type="text" class="form-control" name="name" placeholder= "Name" required="required" data-error="Please input a valid name">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class='form-group'>
+                                <input type="text" class="form-control" placeholder= "Email" name="email" required="required" type="email" data-error="Please input a valid email">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class='form-group'>
+                                <textarea class="form-control" placeholder= "Message" rows="5" name="message" required="required" data-error="Please send me a message"></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        
+                        <div class="info"><b>Email: </b><i class="fa fa-envelope"> contact.jason.zh@gmail.com</i></div>
+                        <div class="info"><b>Linkedin: </b><a href="https://www.linkedin.com/in/j4s0nzhang/" class = "fa fa-linkedin"></a></div>
+                        <div class = "info"><b>Github: </b><a href ="https://github.com/J4s0nZhang" class = "fa fa-github"></a></div>
+                        <div class="info"><b>Resume: </b><a href="documents/Zhang_Resume_V3.pdf" class= "fa fa-file-pdf-o" target="_blank"></a></div>
+                    </div>
+                        
                 </div>
-                <div class="col-md-6">
-                    
-                    <div class="info"><b>Email: </b><i class="fa fa-envelope"> Make a new email incase nibbas spam you</i></div>
-                    <div class="info"><b>Linkedin: </b><a href="#linkedinlink" class = "fa fa-linkedin"></a></div>
-                    <div class = "info"><b>Github: </b><a href ="#githublink" class = "fa fa-github"></a></div>
-                    <div class="info"><b>Resume: </b><a href="documents/Zhang_Resume_V3.pdf" class= "fa fa-file-pdf-o" target="_blank"></a></div>
-                </div>
-                    
-            </div>
+         
+           
         </div>
         
     </section>
