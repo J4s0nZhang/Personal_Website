@@ -44,6 +44,7 @@ body{
 }
 
 
+
 #about-me{
     padding: 20px;
 }
@@ -110,6 +111,9 @@ body{
     font-size: 30px;
     margin-top: 30px;
    
+}
+#experience li{
+    font-size: 20px;
 }
 
 #experience h3{
@@ -208,3 +212,6 @@ body{
     color: white;
 }
 
+b {
+    color: #FE6E2F;
+}
