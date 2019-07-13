@@ -143,6 +143,16 @@ body{
     
 }
 
+#experience blockquote{
+    border-radius: 25px;
+    border: 2px solid #3F3F3F;
+    padding: 15px;
+    display: inline; 
+}
+
+.tech-bar{
+    margin: 30px;
+}
 /*-------------------------------------------------------Projects--------------------------------------------------*/
 
 #projects h1{
