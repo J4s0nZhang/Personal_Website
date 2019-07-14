@@ -147,11 +147,18 @@ body{
     border-radius: 25px;
     border: 2px solid #3F3F3F;
     padding: 15px;
+    font-size: 18px;
+    color: #fff;
     display: inline; 
+    background-color: #47484B;
 }
 
 .tech-bar{
     margin: 30px;
+}
+
+#experience a{
+    margin-left: 22px;
 }
 /*-------------------------------------------------------Projects--------------------------------------------------*/
 
