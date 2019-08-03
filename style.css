@@ -89,7 +89,7 @@ body{
 }
 
 .fa-github{
-    color: #FE6E2F;
+    color: #fff;
     
 }
 
@@ -159,6 +159,14 @@ body{
 
 #experience a{
     margin-left: 22px;
+}
+
+.button-text{
+    border-radius: 25px;
+    border: 2px solid #FE6E2F;
+    padding: 15px;
+    display: inline;
+
 }
 /*-------------------------------------------------------Projects--------------------------------------------------*/
 
