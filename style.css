@@ -228,6 +228,21 @@ body{
     margin:10px;
     background-color: white;
 }
+/*----------------------------------------------------quotes------------------------------------------------------*/
+
+.carousel-inner {
+    height: 300px;
+    width: 100%;
+}
+.carousel-caption{
+    top: 37%;
+    transform: translateY(-50%);
+
+}
+.carousel-caption h1{
+    font-size: 25px;
+}
+
 
 /*-----------------------------------------------------footer----------------------------------------------------*/
 
