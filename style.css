@@ -22,7 +22,7 @@ body{
 
 .navbar-brand img /* I think . is for a specific class, so all the elements of this class can have the same style */
 {
-    width: 130px;
+    width: 9vw;
     alt:"logo";
 }
 
@@ -39,7 +39,7 @@ body{
     color: #bfbfbf!important;
     font-weight: 600; 
     margin: 10px;
-    font-size: 19px;
+    font-size: 20px;
 
 }
 
@@ -50,32 +50,31 @@ body{
 }
 
 .profile img{
-    width: 250px;
-    height: 250px;
-    top: -30px;
-    left: calc(100% - 70px);
+    width: 16vw;
+    top: -25%;
+    left: calc(100% - 10%);
     position: absolute;
-    border: 10px solid #fff;
+    border: 1vw solid #fff;
+    overflow: auto;
 }
 
 .profile {
-    margin-top:40px;
-    margin-bottom:50px;
-    padding-top: 35px;
+    margin-top:3vw;
+    margin-bottom:3vw;
+    padding-top: 2vw;
 
     background-color: #efefef;
 }
 .first-title{
     font-family: "Ubuntu" !important; /* The !important flag seems to be able to override default settings for given tags*/
-    font-size: 35px; 
+    font-size: 30px; 
     color: white;
-    padding-left: 35px;
+    padding-left: 1.5vw;
 }
 #about-me blockquote{
-    padding-right: 95px;
-    padding-left: 25px;
-    padding-top: 0px;
-    padding-bottom: 25px;
+    padding-right: 8vw;
+    padding-left: 1.2vw;
+    padding-bottom: 1.2vw;
     font-size: 18px;
     background-color: #efefef;
     
@@ -90,6 +89,7 @@ body{
 
 .fa-github{
     color: #fff;
+    
     
 }
 
@@ -228,21 +228,6 @@ body{
     margin:10px;
     background-color: white;
 }
-/*----------------------------------------------------quotes------------------------------------------------------*/
-
-.carousel-inner {
-    height: 300px;
-    width: 100%;
-}
-.carousel-caption{
-    top: 37%;
-    transform: translateY(-50%);
-
-}
-.carousel-caption h1{
-    font-size: 25px;
-}
-
 
 /*-----------------------------------------------------footer----------------------------------------------------*/
 
