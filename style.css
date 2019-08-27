@@ -50,12 +50,11 @@ body{
 }
 
 .profile img{
-    width: 240px;
-    top: -25%;
+    width: 200px;
+    top: -30px;
     left: calc(100% - 10%);
     position: absolute;
-    border: 1vw solid #fff;
-    overflow: auto;
+    border: 10px solid #fff;
 }
 
 .profile {
@@ -80,7 +79,7 @@ body{
     
 }
 
-@media only screen and (max-width: 1400px ){
+@media only screen and (max-width: 1000px ){
     .profile img{
         margin-top: 20px;
         width:150px; 
@@ -104,7 +103,7 @@ body{
 }
 
 
-@media only screen and (max-width: 770px ){
+@media only screen and (max-width: 750px ){
     .profile img{
         width:150px; 
         top: -40%;
