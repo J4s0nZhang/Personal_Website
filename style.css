@@ -44,7 +44,6 @@ body{
 }
 
 
-
 #about-me{
     padding: 20px;
 }
@@ -248,10 +247,11 @@ body{
     
 }
 
-#reference p{
+.reference-border{
     padding: 90px 30px 30px 35px;
     margin-top: -70px;
     border: 2px solid #FE6E2F;
+    
 }
 
 .reference-info{
@@ -259,6 +259,13 @@ body{
     border-color: #FE6E2F !important;
 }
 
+#reference h3{
+    font-size: 18px;
+}
+
+#reference h2{
+    font-size: 25px;
+}
 /*----------------------------------------------------Contact-me-------------------------------------------------*/
 #contact{
     margin-top: 20px;
