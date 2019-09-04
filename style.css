@@ -102,27 +102,6 @@ body{
 }
 
 
-@media only screen and (max-width: 750px ){
-    .profile img{
-        width:150px; 
-        top: -40%;
-        left: 30%;
-        display: block;
-        margin: auto;
-    }
-
-
-    #about-me blockquote{
-    
-        padding-top: 45px;
-        font-size: 15px;
-        background-color: #efefef;
-        
-    }
-    .profile {
-        margin-top: 125px;
-    }
-}
 /*------------------------------------------------- work experience -----------------------------------------------------------*/
 .underline {
     border-bottom: 2px solid #FE6E2F; /* important: borders need a style attribute, otherwise it will not show up*/
@@ -310,3 +289,41 @@ body{
 b {
     color: #FE6E2F;
 }
+
+/*---------------------------------------------------------style changes when screen size < 750px---------------------------------------------------*/
+
+@media only screen and (max-width: 750px ){
+    .profile img{
+        width:150px; 
+        top: -40%;
+        left: 30%;
+        display: block;
+        margin: auto;
+    }
+
+
+    #about-me blockquote{
+    
+        padding-top: 45px;
+        font-size: 15px;
+        background-color: #efefef;
+        
+    }
+    .profile {
+        margin-top: 125px;
+    }
+
+    .carousel-inner {
+        height: 250px;
+        width: 100%;
+    }
+
+    .carousel-caption h1{
+        font-size: 20px;
+    }
+    
+    
+}
+
+/*-------------------------------------------style changes when size < -------------------------------*/
+
