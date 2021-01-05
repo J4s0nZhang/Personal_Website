@@ -71,9 +71,52 @@
     <section id="experience">
         <div class = "container">
             <h1 class="underline">Work Experience</h1>
-
-   
-
+            <div class ="row">
+                <div class = "col-md-3 work-exp-img">
+                    <img src="imgs/NRC_logo.png" class="rounded" width="83%" alt="NRC Logo">
+                </div>
+                <div class = "col-md-9 work-description">
+                
+                        <h2>National Research Council of Canada</h2>
+                        <h3> Computer Vision Engineer | Computer Vision and Graphics Team</h3>
+                        <span class="year-label">2020</span>
+                        <ul>
+                            <li>Drastically improved model evaluation efficiency by developing a robust pipeline for n-shot analysis, K-fold stratified cross validation 
+                                and balanced sampling for COVID-19 chest X-Rays in Pytorch.  </li>
+                            <li>Developed, trained and tested Imprinted Weights Low-shot approach in Pytorch. Reaching overall 
+                                accuracy of 98% on all 3 classes, with 92% COVID sensitivity and 96% COVID precision.  </li>
+                            <li>Developed data pipeline and trained CNN models for COVID-19 cough audio classification. Optimized spectrogram transformation parameters,
+                                improving TensorFlow model accuracy by over 10%. </li>
+                            <li>Developed audio recording pipeline for VitalSeer contactless vitals estimation software in C++. Interfaces with laptop microphone to 
+                                record audio, passes recording in organized, object oriented, producer consumer loop concurrently to a MongoDB database with GraphQL.</li>
+                        </ul>
+                        <div class="tech-bar">
+                                <blockquote>Technologies used: Pytorch, TensorFlow, C++, seaborn, Linux</blockquote>
+                        </div>
+                </div>
+            </div>
+            <div class ="row">
+                <div class = "col-md-3 work-exp-img">
+                    <img src="imgs/goldspot_logo.jpg" class="rounded" width="83%" alt="Goldspot Logo">
+                </div>
+                <div class = "col-md-9 work-description">
+                
+                        <h2>GoldSpot Discoveries Corp.</h2>
+                        <h3> Data Scientist</h3>
+                        <span class="year-label">2020</span>
+                        <ul>
+                            <li>Trained 2D UNet to segment core images in Pytorch and fastai, improving segmentation accuracy from 75% to 92% dice score. 
+                                Integrated and deployed network in core image workflow. </li>
+                            <li>Trained 3D UNet to segment 3D point data in Pytorch, confirmed 3D segmentation approach viability with 83% dice score.
+                                Created automated 3D data generator in AWS for cloud training.  </li>
+                            <li>Created CoreInspector software, backend data processing done with numpy and pandas. Frontend UI done with tkinter.
+                                The software analyzes geological data from drill holes for on-site geologists. </li>
+                        </ul>
+                        <div class="tech-bar">
+                                <blockquote>Technologies used: Pytorch, fastai, AWS, tkinter, Linux</blockquote>
+                        </div>
+                </div>
+            </div>
             <div class ="row">
                 <div class = "col-md-3 work-exp-img"> <!--An image of workplace-->
                     <img src="imgs/sunnybrook_logo.png" class = "rounded" width="100%" alt="Sunnybrook Logo">
@@ -97,7 +140,6 @@
 
                     <h3>Software Research Intern</h3>
                     <span class="year-label">2017</span>
-
                         <ul>
                             <li>Learned machine learning concepts and technologies on the job and applied them effectively to meet a 2 month deadline</li>
                             <li>Applied <b>transfer learning</b> techniques to alexnet (pre-trained neural network) to classify images, 
@@ -117,29 +159,29 @@
 
             
             <div class ="row">
-                    <div class = "col-md-3 work-exp-img">
-                        <img src="imgs/fgf_logo.jpeg" class="rounded" width="83%" alt="FGF Logo">
-                    </div>
-                    <div class = "col-md-9 work-description">
-                   
-                            <h2>FGF Brands</h2>
-                            <h3> IT support CO-OP</h3>
-                            <span class="year-label">2019</span>
-                            <ul>
-                                <li> Managed Linux scripts which displayed a SCADA system in multiple remote locations</li>
-                                <li>Implemented an updated email notification system for lending hardware using javascript and google sheets</li>
-                                <li>Wrote Linx shell scripts to automate a sign in process</li>
-                            </ul>
-                            <div class="tech-bar">
-                                    <blockquote>Technologies used: Linux OS, google scripts (javascript), bash</blockquote>
-                            </div>
-                            
-                  
-                        <a class="btn btn-primary more-info" href="https://github.com/J4s0nZhang/FGF_scripts-" target="_blank">
-                            <i class="fa fa-github fa-2x"></i>Github
-                        </a>
-                    </div>
+                <div class = "col-md-3 work-exp-img">
+                    <img src="imgs/fgf_logo.jpeg" class="rounded" width="83%" alt="FGF Logo">
                 </div>
+                <div class = "col-md-9 work-description">
+                
+                        <h2>FGF Brands</h2>
+                        <h3> IT support CO-OP</h3>
+                        <span class="year-label">2019</span>
+                        <ul>
+                            <li> Managed Linux scripts which displayed a SCADA system in multiple remote locations</li>
+                            <li>Implemented an updated email notification system for lending hardware using javascript and google sheets</li>
+                            <li>Wrote Linx shell scripts to automate a sign in process</li>
+                        </ul>
+                        <div class="tech-bar">
+                                <blockquote>Technologies used: Linux OS, google scripts (javascript), bash</blockquote>
+                        </div>
+                        
+                
+                    <a class="btn btn-primary more-info" href="https://github.com/J4s0nZhang/FGF_scripts-" target="_blank">
+                        <i class="fa fa-github fa-2x"></i>Github
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
    
@@ -184,10 +226,28 @@
                             </div>
                     </div>
                 </div>
-                        
-                        
             </div>
-                
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="imgs/github_logo.png" alt="Github Logo">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Task Tohsaka</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Mobile Game Automation with Deep Learning</h6>
+                            <p class="card-text">A robust task automation system for the mobile card game Fate Grand/Order. Trained Siamese network
+                                to differentiate different face cards, as well as a classic CNN for card type classification with 94% accuracy. 
+                                Additionally, scripts are wrapped by GUIs for user friendilness. 
+                            </p>
+                        </div>
+                            <li class="list-group-item">Technologies: Tensorflow, Linux, Python, Git</li>
+                            <div class= "card-body">
+                            <a href="https://github.com/J4s0nZhang/TaskTohsaka" class="card-link">Github</a>
+                            </div>
+                    </div>
+                </div>
+               
+            </div>
             </div>
 
             </div>
@@ -249,8 +309,30 @@
                                 <i class="fa fa-linkedin"></i> Linkedin
                             </a> 
                         </div>
-                    </div>
+                    </div>   
                     
+                </div>
+
+                <div class="col-md-6">
+                    <div class="reference-img">
+                        <img src="imgs/Pengcheng_profile.jpg" class="rounded-circle" alt="Gavin Goes profile picture">
+                    </div>
+                    <div class="reference-border">
+                        <p>
+                            Jason did an excellent job on applying deep learning to R&D projects under the NRC Pandemic 
+                            Response Challenge program. He has shown impressive capability on multi-tasking, problem solving 
+                            and attention to details. He is dependable, sharp and passionate. I highly recommend Jason for 
+                            future opportunities.
+                        </p>
+                        <div class="text-center">
+                            <h2>- Pengcheng Xi </h2>
+                            <h3>Senior Research Officer for machine learning at National Research Council of Canada</h3>
+                            <br>
+                            <a class="btn btn-primary reference-info" href="https://www.linkedin.com/in/pengcheng-xi/" targe="_blank">
+                                <i class="fa fa-linkedin"></i> Linkedin
+                            </a> 
+                        </div>
+                    </div>   
                     
                 </div>
             </div>
